@@ -1,0 +1,23 @@
+.grid {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+
+  /* gap: 2px; */
+  background-color: gray;
+  /* position: relative; */
+}
+.grid div {
+  height: 40px;
+  width: 40px;
+  /* position: absolute; */
+  /* border: solid rgb(112, 184, 64); */
+}
+.bomb {
+  background-color: orange;
+}
+.checked {
+  background-color: red;
+  color: blue;
+}
